@@ -5,3 +5,12 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
 }
+
+@media (max-width: 418px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}

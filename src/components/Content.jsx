@@ -25,7 +25,7 @@ const SpaceHouse = ({ space }) => {
       <h2 className="text-lg font-semibold">{space}</h2>
       <button
         onClick={() => setActiveLamp(!activeLamp)}
-        className={`${activeLamp ? "bg-slate-500" : "bg-slate-800"} relative w-40 overflow-hidden rounded-full py-3 font-semibold tracking-widest uppercase transition-all duration-300`}
+        className={`${activeLamp ? "bg-slate-800" : "bg-slate-500"} relative w-40 overflow-hidden rounded-full py-3 font-semibold tracking-widest uppercase transition-all duration-300`}
       >
         {activeLamp ? "Matikan" : "Hidupkan"}
       </button>
